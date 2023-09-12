@@ -1,29 +1,28 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package eva1_5_entrada_salida;
+package eva1_5.pkg1_entrada_salida;
 
 import java.util.Scanner;
 
 /**
  *
- * @author invitado
+ * @author mac
  */
-public class EVA1_5_ENTRADA_SALIDA {
+public class EVA1_51_ENTRADA_SALIDA {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        //1. DECLARACIÓN DE VARIABLES
+        // TODO code application logic here 
+        //1. DECLARACIï¿½N DE VARIABLES
          String nombre; 
          String apellido; 
          int semestre;
          Scanner captura = new Scanner (System.in);
-        //; fin de instrucción en JAVA
+        //; fin de instrucciï¿½n en JAVA
         //2. CAPTURA DE VARIABLES
         System.out.println("Ingresa tu Nombre(s):");
         nombre= captura.nextLine();
@@ -31,14 +30,12 @@ public class EVA1_5_ENTRADA_SALIDA {
         apellido= captura.nextLine();
         System.out.println("Ingresa tu Semestre:");
         semestre= captura.nextInt();
-        //JAVA es sesible a mayúsculas y mínusculas
+        //JAVA es sesible a mayï¿½sculas y mï¿½nusculas
         //es decir: es diferente System que system
         //3. MOSTRAR LOS DATOS CAPTURADOS
          System.out.println(nombre);
           System.out.println(apellido);
             System.out.println(semestre);
-             
-        
     }
     
 }
